@@ -20,4 +20,7 @@ It begins by recreating and adapting key notebooks from the [Arc Institute’s E
 - Access to NVIDIA API (Evo 2 endpoints)
 - Standard packages: `numpy`, `pandas`, `requests`, `torch`
 
-## Structure
+## API setup
+
+Make a .env file with this structure:
+NVIDIA_API_KEY="nvapi-XXXXXXXXXXX-XXX-XXXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-XX"
