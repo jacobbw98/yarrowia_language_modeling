@@ -1,0 +1,9 @@
+Algorithm,Pooling_method,Source_Evo2_7b_Layer,Train_EC_Accuracy,Valid_EC_Accuracy,Short_Acc,Medium_Acc,Long_Acc,Notes
+XGBoost,Last,17,0.9754,0.3897,0.4221,0.4008,0.3461,Last token pooling baseline
+XGBoost,Mean,19,0.9754,0.6208,0.6526,0.6151,0.5946,Mean token pooling
+MLP,Last,20,0.9744,0.6355,0.6713,0.6406,0.5945,Last token pooling
+MLP,Mean,17,0.9684,0.7332,0.7451,0.7466,0.7080,Top performing single-layer model
+RF Block,Mean,24,N/A,0.1191,0.1186,0.1248,0.1140,Random Forest on Block output
+RF MLP,Mean,24,N/A,0.1007,0.1033,0.0966,0.1023,Random Forest on MLP sub-layer
+RF Post Norm,Mean,24,N/A,0.1162,0.1101,0.1140,0.1244,Random Forest on Post-Norm sub-layer
+RF Combined (L9+24+26),Mean,9+24+26,N/A,0.1331,0.1334,0.1358,0.1300,Multi-layer concatenation baseline (Peak 13.58% on medium seqs)

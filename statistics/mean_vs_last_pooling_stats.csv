@@ -1,0 +1,9 @@
+Model,Best_Layer,Evaluation_Cohort,Sample_Size,Mean_Token_Acc,Last_Token_Acc,Diff_Pct_Pts,Z_Score,P_Value,Statistical_Significance
+MLP,17,Valid Overall (N=18420),18420,0.7332,0.6355,9.77,20.17,1.86e-90,p < 0.0001
+MLP,17,Short (<500 bases),6140,0.7451,0.6713,7.38,9.00,2.24e-19,p < 0.0001
+MLP,17,Medium (501-1000 bases),6140,0.7466,0.6406,10.60,12.74,3.58e-37,p < 0.0001
+MLP,17,Long (>=1001 bases),6140,0.7080,0.5945,11.35,13.20,8.76e-40,p < 0.0001
+XGBoost,19,Valid Overall (N=18420),18420,0.6208,0.3897,23.11,44.36,0.00e+00,p < 0.0001
+XGBoost,19,Short (<500 bases),6140,0.6526,0.4221,23.05,25.61,1.18e-144,p < 0.0001
+XGBoost,19,Medium (501-1000 bases),6140,0.6151,0.4008,21.43,23.75,1.13e-124,p < 0.0001
+XGBoost,19,Long (>=1001 bases),6140,0.5946,0.3461,24.85,27.59,2.83e-167,p < 0.0001

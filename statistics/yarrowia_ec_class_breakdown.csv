@@ -1,0 +1,9 @@
+EC_Level_1_Class,Enzyme_Type,Known_Count,Known_Pct,Pred_Count,Pred_Pct,Diff_Pct_Pts,Pred_Known_Ratio,Std_Residual,Trend
+EC 1,Oxidoreductases,168,14.6597,1294,24.3783,9.7186,1.6629,2.6416,Enriched
+EC 2,Transferases,418,36.4747,2302,43.3685,6.8938,1.1890,1.3738,Slightly Enriched
+EC 3,Hydrolases,341,29.7557,1519,28.6172,-1.1385,0.9617,-0.2744,Near Perfect Match
+EC 4,Lyases,68,5.9337,90,1.6956,-4.2381,0.2858,-3.5041,Depleted
+EC 5,Isomerases,57,4.9738,66,1.2434,-3.7304,0.2500,-3.4957,Depleted
+EC 6,Ligases,65,5.6719,33,0.6217,-5.0502,0.1096,-5.3019,Depleted
+EC 7,Translocases,29,2.5305,4,0.0754,-2.4552,0.0298,-4.4418,Depleted
+Total,All Enzymes,1146,100.0000,5308,100.0000,0.0000,1.0000,0.0000,Total
